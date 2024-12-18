@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import {RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home.jsx'
-import About from './pages/About.jsx'
+import Form from './pages/Form.jsx'
 import Contact from './pages/Contact.jsx'
 import Containers from './pages/Containers.jsx'
 import Containers2 from './pages/Containers2.jsx'
@@ -23,8 +23,8 @@ const router = createBrowserRouter([
       },
 
       {
-        path:'About',
-        element: <About />
+        path:'Form',
+        element: <Form />
       },
 
       {
